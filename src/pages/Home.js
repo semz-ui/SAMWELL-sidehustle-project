@@ -33,9 +33,10 @@ const Home = () => {
             <AccountCircleIcon />
             </div>
         </div>
+        
         <div className='home_body'>
-
-            {textEntered ? <p>{textEntered}</p> : <img src={logo} />}
+        
+              {textEntered ? <p>{textEntered}</p> : <img src={logo} alt="logo" />}
             
             <div className="Input">
 
