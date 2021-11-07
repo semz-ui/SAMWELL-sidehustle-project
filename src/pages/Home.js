@@ -36,7 +36,11 @@ const Home = () => {
         
         <div className='home_body'>
         
-              {textEntered ? <p>{textEntered}</p> : <img src={logo} alt="logo" />}
+              {textEntered ? <p style={{color: "white",
+                 color: "DodgerBlue",
+                fontSize: "100px",
+                fontFamily: "Times"}}>
+                {textEntered}</p> : <img src={logo} alt="logo" />}
             
             <div className="Input">
 
