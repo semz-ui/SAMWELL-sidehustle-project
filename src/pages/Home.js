@@ -13,7 +13,7 @@ import { Button } from '@mui/material';
 
 const Home = () => {
 
-    const [textEntered, setTextEntered] = useState(logo);
+    const [textEntered, setTextEntered] = useState('');
 
     const textHandler = (e) => {
         setTextEntered(e.target.value);
